@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Temp Converter</title>
+</head>
+<body>
+    <form id="tempCalc" onsubmit="convTemp(); return false">
+    <div class="mainCard">
+        <p id="heading">Enter Temperature convert in any Unit:</p>
+        <input type="number" value="" id="numeric">
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">°Celcius</option>
+            <option value="fer">°Ferenhit</option>
+        </select>
+        <br>
+        <!-- <button id="btnSubmit" >Submit</button> -->
+        <input type="submit" value="Submit" id="btnSubmit" name="temp"> <br />
+        <span id="resultCont"></span>
+    </div>
+</form>
+</body>
+</html>

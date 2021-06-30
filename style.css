@@ -1,0 +1,66 @@
+body{
+    place-items: center;
+    background-color: grey;
+    
+}
+
+.mainCard{
+    background-color:dodgerblue;
+    height: 490px;
+    width: 900px;
+    margin-top: 150px;
+    margin-left: 250px;
+    border-radius: 50px;
+    border:double;
+    border-color: whitesmoke;
+}
+
+#heading{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+#numeric{
+    height:30px;
+    width: 250px;
+    margin-left: 200px;
+    border-radius: 14px;
+    padding-left: 10px;
+}
+
+#temp_diff{
+    height: 35px;
+    background-color: orange;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-left: 0.8rem;
+    border-radius: 15px;
+}
+
+#btnSubmit{
+    margin-top: 15px;
+    margin-left: 400px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-left: 0.5rem;
+    color: black;
+}
+
+#resultCont{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 250px;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: bold;
+}
